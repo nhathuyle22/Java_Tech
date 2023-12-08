@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="product1" class="org.example.ex1.Product">
+        <property name="id" value="1" />
+        <property name="name" value="Product 1" />
+        <property name="price" value="150" />
+        <property name="description" value="no" />
+    </bean>
+
+    <bean id="anotherExampleBean" class="examples.AnotherBean"/>
+    <bean id="yetAnotherBean" class="examples.YetAnotherBean"/>
+
+</beans>
